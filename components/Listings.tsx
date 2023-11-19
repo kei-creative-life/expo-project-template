@@ -23,7 +23,6 @@ const Listings = ({ listings: items, category }: Props) => {
   const listRef = useRef<FlatList>(null);
 
   useEffect(() => {
-    console.log(items.length);
     setLoading(true);
 
     setTimeout(() => {
