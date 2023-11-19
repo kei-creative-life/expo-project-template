@@ -1,7 +1,5 @@
 import { View, Text } from "react-native";
 import React from "react";
-import { Link } from "expo-router";
-import { useAuth } from "@clerk/clerk-expo";
 import { Stack } from "expo-router";
 import ExploreHeader from "@/components/ExploreHeader";
 import Listings from "@/components/Listings";
